@@ -29,7 +29,6 @@ print the output.
  
 
 ## PROGRAM:
-<<<<<<< HEAD
  Developed by: s.vinod kumar
  
 register number: 22004903
@@ -38,20 +37,7 @@ with open("file.txt","r")as fp:
     x=fp.read()
 with open("file1.txt","w") as fp1:
     fp1.write(x)
-=======
 
-Developed by: s.vinod kumar
-
-register number: 22004903
-
-``` python
-
-with open("file.txt","r") as fp:
-    with open("file1.txt","w") as fp1:
-        v = fp.read()
-        fp1.write(v)
-
->>>>>>> 4748481414b6bd1f41ac20f5160fb2b47f25a8a3
 ```
 ### OUTPUT:
 ![output](/output%20(2).png)

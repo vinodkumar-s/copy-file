@@ -22,17 +22,19 @@ Anaconda - Python 3.7
  
 
 ## PROGRAM:
-## Developed by: s.vinod kumar
-## register number: 22004903
+ Developed by: s.vinod kumar
+ 
+register number: 22004903
 ``` python
-with open("file1.txt","r") as fp:
-    with open("file2.txt","w") as fp1:
-        v = fp.read()
-        fp1.write(v)
-
+with open("file.txt","r")as fp:
+    x=fp.read()
+with open("file1.txt","w") as fp1:
+    fp1.write(x)
 ```
 ### OUTPUT:
-![output](/OUTPUT.png)
+![output](/output%20(2).png)
+![output](/output2.png)
+![output](/output1.png)
 
 
 ## RESULT:
